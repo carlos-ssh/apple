@@ -17,11 +17,23 @@ input{
     height: .88rem;
     padding: 0em;
 }
+li {
+    display: inline;
+    list-style-type: none;
+    position: relative;
+    left: 600px;
+    bottom: 23px;
+}
+footer{
+    font-size: 10px;
+    width: 1054px;
+    height: 90px;
+}
 .img-crop{
     min-width: 80%;
-    min-height: 85%;
+    min-height: 90%;
     max-width: 80%;
-    max-height: 95%;
+    max-height: 100%;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -500px;
@@ -54,6 +66,10 @@ input{
 }
 .img-grid {
     max-width: 361px;
-    margin: -40px 0 0 -5px;
+    margin: -45px 0 0 -5px;
     height: 180px;
+}
+.footer-cont{
+    height: 90px;
+    width: 980px;
 }
