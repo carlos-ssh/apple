@@ -1,83 +1,128 @@
 *{
-    text-decoration: none;
-    max-width: 1440px
-}
-body {
-    background-color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    max-width: 1440px;
-    max-height: 1280px;
+    text-decoration: none;
+    
 }
-span {
-    min-width: 250vw;
-    align-items: center;
+body{
+    min-width: 1440px;
 }
-input{
-    align-items: center;
-    background: linear-gradient(0deg, rgba(120, 120, 120, 1) 0%, rgba(5, 5, 5, .07) 50%, rgba(110, 110, 110, 1) 51%, rgba(120, 120, 120, 1) 100%);
-    border-radius: 0 5px 5px 0;
-    display: flex;
-    padding: 0 10px 0 10px;
-    width: auto;
+.searching {
+    border-radius: 3px;
+    background: linear-gradient(0deg, rgba(120, 120, 120, 1) 0%, rgba(95, 95, 95, 1) 50%, rgba(110, 110, 110, 1) 51%, rgba(120, 120, 120, 1) 100%);
+    outline: none;
+    border: none;
+    border-radius: 1px;
+    width: 130px;
+    height: 28.8px;
+    align-self: center;
+    padding: 0 13px 0 13px;
+    transition: width 0.7s;
 }
+.searching input{
+    background: url("/resources/search-icon.png") 1% no-repeat;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 1px #808080, 0 -1px #363636;
+    width: 120px;
+    height: 18px;
+    font-size: 14px;
+    margin-top: 6px;
+    outline: none;
+    transition: width 0.7s;
+}
+ input:focus{
+    background: url("/resources/search-onclick.png") no-repeat 1%, white;
+    width: 150px;
+
+}
+.searching:focus{
+    resize: horizontal;
+    width: 300px;
+}
+
 li {
-    display: inline;
     list-style-type: none;
-    position: relative;
-    left: 600px;
-    bottom: 23px;
 }
 footer{
     font-size: 10px;
     width: 1054px;
     height: 90px;
+    margin-left: 13%;
 }
-.img-crop{
-    max-width: 2000px;
-    max-height: 1280px;
-}
-.main-nav{
-    align-content: center;
-    /*border: 1px solid red;*/
-    border-radius: 4px;
-    bottom: 28rem;
-    display: grid;
-    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% !important;
-    font-size: 12px;
-    margin-top: 1rem;
-    margin-left: 12%;
-    height: 1.8rem;
-    position: relative;
-    width: 1180px;
-    z-index: 1;
-    background: linear-gradient(0deg, rgba(120, 120, 120, 1) 0%, rgba(95, 95, 95, 1) 50%, rgba(110, 110, 110, 1) 51%, rgba(120, 120, 120, 1) 100%);
-    border: 1px solid #757575;
-}
-.main-nav a{
-    color: white;
-    text-align: center;
-    line-height: 30px;
-    font-weight: bold;
-    font-size: 14px;
-    height: 36px;
-    text-shadow: 0 0.6px rgba(0, 0, 0, 0.6), 0 -0.6px rgba(0, 0, 0, 0.9);
-    padding-top: 3px;
-    width: 106px;
-}
-.main-nav:hover {
-    background: linear-gradient(0deg, rgb(31, 30, 30) 0%, rgba(39, 39, 39,0.9) 50%, rgba(75, 75, 75, 1) 51%, rgba(95, 95, 95, 1) 100%);
-    
+
+.main-div{
+    background: url("/resources/hero.jpg") no-repeat;
+    align-self: center;
+    display: flex;
+    height: 550px;
+    margin: -10px 0 5px -5px;
 }
 .apple-logo{
-    color: #ffffff;
-    width: 7rem;
+    position: relative;
+    left: 45px;
+    top: 3px;
 }
-.img-grid {
-    max-width: 400px;
-    margin: -45px 0 0 0;
-    height: 180px;
+nav {
+    position: relative;
+    bottom: 220px;
+    left: 13%;
+    display: flex;
+    align-self: center;
+    width: 980px;
+}
+nav a{
+    float: left;
+    border-radius: 1px;
+    display: inline-grid;
+    font-size: 12px;
+    height: 1.8rem;
+    width: 130px;
+    background: linear-gradient(0deg, rgba(120, 120, 120, 1) 0%, rgba(95, 95, 95, 1) 50%, rgba(110, 110, 110, 1) 51%, rgba(120, 120, 120, 1) 100%);
+    border-right: 1.5px solid rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    text-shadow: 0 0.6px rgba(0, 0, 0, 0.6), 0 -0.6px rgba(0, 0, 0, 0.9);
+    flex-direction: row;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background: linear-gradient(0deg, rgb(31, 30, 30) 0%, rgba(39, 39, 39,0.9) 50%, rgba(75, 75, 75, 1) 51%, rgba(95, 95, 95, 1) 100%);   
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.imgs-container{
+   width: auto;
+   height: 198px;
+    
+}
+.img-grid{
+  width: 359px;
+  margin-left: -5px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 22px;
+    left: 480px;
+    margin-left: 50px;
+    letter-spacing: 0.5px;
 }
 .footer-cont{
-    height: 90px;
-    width: 980px;
+    margin-top: 30px;
+}
+.foo-pp{
+    margin-top: -60px;
 }
