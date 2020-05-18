@@ -7,66 +7,6 @@ body {
   min-width: 1440px;
 }
 
-.searching {
-  width: auto;
-  background: linear-gradient(0deg, rgba(120, 120, 120, 1) 0%, rgba(95, 95, 95, 1) 50%, rgba(110, 110, 110, 1) 51%, rgba(120, 120, 120, 1) 100%);
-  outline: none;
-  border: none;
-  border-radius: 1px;
-  height: 28.8px;
-  align-self: center;
-  padding: 0 13px 0 13px;
-  transition: width 0.7s;
-}
-
-.searching input {
-  background: url("/resources/search-icon.png") 1% no-repeat;
-  border: none;
-  border-radius: 30px;
-  box-shadow: 0 1px #808080, 0 -1px #363636;
-  width: 110px;
-  height: 18px;
-  font-size: 14px;
-  margin-top: 4px;
-  outline: none;
-  transition: width 0.7s;
-}
-
-input:focus {
-  background: url("/resources/search-onclick.png") no-repeat 1%, white;
-  width: 150px;
-}
-
-.searching:focus {
-  resize: horizontal;
-  width: 300px;
-}
-
-li {
-  list-style-type: none;
-}
-
-footer {
-  font-size: 10px;
-  width: 1054px;
-  height: 90px;
-  margin-left: 13%;
-}
-
-.main-div {
-  background: url("/resources/hero.jpg") no-repeat;
-  align-self: center;
-  display: flex;
-  height: 550px;
-  margin: -10px 0 5px -5px;
-}
-
-.apple-logo {
-  position: relative;
-  left: 45px;
-  top: 3px;
-}
-
 nav {
   position: relative;
   bottom: 220px;
@@ -91,6 +31,66 @@ nav a {
   text-shadow: 0 0.6px rgba(0, 0, 0, 0.6), 0 -0.6px rgba(0, 0, 0, 0.9);
   flex-direction: row;
   line-height: 30px;
+}
+
+.main-div {
+  background: url("resources/hero.jpg") no-repeat;
+  align-self: center;
+  display: flex;
+  height: 550px;
+  margin: -10px 0 5px -5px;
+}
+
+.searching {
+  width: auto;
+  background: linear-gradient(0deg, rgba(120, 120, 120, 1) 0%, rgba(95, 95, 95, 1) 50%, rgba(110, 110, 110, 1) 51%, rgba(120, 120, 120, 1) 100%);
+  outline: none;
+  border: none;
+  border-radius: 1px;
+  height: 28.8px;
+  align-self: center;
+  padding: 0 13px 0 13px;
+  transition: width 0.7s;
+}
+
+.searching input {
+  background: url("resources/search-icon.png") 1% no-repeat;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 1px #808080, 0 -1px #363636;
+  width: 110px;
+  height: 18px;
+  font-size: 14px;
+  margin-top: 4px;
+  outline: none;
+  transition: width 0.7s;
+}
+
+input:focus {
+  background: url("resources/search-onclick.png") no-repeat 1%, white;
+  width: 150px;
+}
+
+.searching:focus {
+  resize: horizontal;
+  width: 300px;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  font-size: 10px;
+  width: 1054px;
+  height: 90px;
+  margin-left: 13%;
+}
+
+.apple-logo {
+  position: relative;
+  left: 45px;
+  top: 3px;
 }
 
 h2 {
