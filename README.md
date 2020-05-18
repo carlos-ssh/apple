@@ -19,9 +19,9 @@ This project consists of building an HTML document that matches the appearance o
 
 👤 **Carlos Robles**
 
-- Github: [@githubhandle](https://github.com/carlos-ssh) 
-- Twitter: [@twitterhandle](https://twitter.com/AomRobles) 
-- Linkedin: [linkedin](https://linkedin.com/carlosfloresrobles)
+- Github: [@Carlos-SSH](https://github.com/carlos-ssh) 
+- Twitter: [@aomrobles](https://twitter.com/AomRobles) 
+- Linkedin: [Carlos-SSH](www.linkedin.com/in/carlos-ssh)
 
 
 ## 🤝 Contributing
@@ -36,4 +36,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Thanks to my Family.
 - Thanks to Microverse.
+
